@@ -1,5 +1,5 @@
 body {
-  background-image: url('nubex.jpg');
+  background-image: url('/nubex.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
