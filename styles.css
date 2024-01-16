@@ -2,5 +2,5 @@ html body {
 background-image: url(fon.jpg);
 background-position: bottom;
 background-size: 100%; 
-background-repeat: no-repeat;
+background-repeat: auto;
 }
