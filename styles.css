@@ -1,5 +1,9 @@
 html, body {
   height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
@@ -7,4 +11,4 @@ body {
   background-image: url('/fon.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: left; }
+  background-position: center; }
