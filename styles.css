@@ -2,4 +2,6 @@ body {
   background-image: url('/nubex.jpg');
   background-repeat: no-repeat;
   background-size: skale;
+  background-position: center;
+  height: 100vh;
 }
