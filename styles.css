@@ -1,3 +1,5 @@
-selector {
-  background-image: url("nubex.jpg");
+body {
+  background-image: url('https://xhub157.github.io/Navigation/styles.css');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
