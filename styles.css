@@ -1,6 +1,7 @@
 html body {
 background-image: url(fon.jpg);
-background-position: auto;
-background-size: 100%; 
+background-position: bottom;
+background-size: cover; 
 background-repeat: no-repeat;
+background-attachment: local  
 }
