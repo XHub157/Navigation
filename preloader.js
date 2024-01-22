@@ -5,3 +5,6 @@ window.onload = function() {
           preloader.classList.add('preloader-hidden');
     }, 990);
 }
+$(document).ready(function() {
+    $('#preloader').fadeOut(400);
+});
