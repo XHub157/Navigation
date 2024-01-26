@@ -1,5 +1,9 @@
 html body {
-background-color: #99bbff; 
+background-image: url(fonchik.jpg);
+background-position: bottom;
+background-size: 100%;
+background-repeat: repeat;
+background-attachment: scroll; 
 }
 .rainbow-text-loop {
   font-size: 1.5rem;
