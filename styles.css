@@ -1,9 +1,5 @@
 html body {
-background-color: gray;
-background-position: bottom;
-background-size: 100%;
-background-repeat: no-repeat;
-background-attachment: scroll; 
+background-color: "#99bbff"; 
 }
 .rainbow-text-loop {
   font-size: 1.5rem;
