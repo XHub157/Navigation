@@ -1,8 +1,8 @@
 html body {
-background-image: url(fonchik.png);
+background-image: url(fon.jpg);
 background-position: bottom;
 background-size: 100%;
-background-repeat: repeat-y fixed;
+background-repeat: no-repeat;
 background-attachment: scroll; 
 }
 .rainbow-text-loop {
