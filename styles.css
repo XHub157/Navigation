@@ -17,12 +17,7 @@ html body {
         background-position: 80% 0%;
     }
 }
-@keyframes snow {
-  to {
-    transform: translateY($w + px);
-  }
-}
-}
+
 .rainbow-text-loop {
   font-size: 1.5rem;
   display: inline-block;
