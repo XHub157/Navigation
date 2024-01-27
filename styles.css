@@ -1,8 +1,8 @@
 html body {
-background-image: url(fon.jpg);
+background-image: url(1706341074648.png);
 background-position: bottom;
 background-size: 100%;
-background-repeat: no-repeat;
+background-repeat: repeat -y fixed;
 background-attachment: scroll; 
 }
 .rainbow-text-loop {
