@@ -1,4 +1,4 @@
-html body {@mixin dots($count) {
+html body @mixin dots($count) {
   $text-shadow: ();
   @for $i from 0 through $count {
     $text-shadow: $text-shadow,
@@ -57,7 +57,7 @@ head::after {
   @include dots(40);
   animation-duration: 41s;
   animation-delay: -19s;
-}}
+}
 
 
 @keyframes move {
