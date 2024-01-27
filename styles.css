@@ -1,53 +1,22 @@
 html body {
-
-$d: 70;      // density
-$w: 600;     // grid size
-$s: 3s;       // speed
-
-// Generate the snow image using radial gradients
-$grad: ();
-@for $i from 0 to $d {
-  $v: random(4) + 2;
-  $a: random(5) * .1 + .5;
-  $grad: $grad, radial-gradient(
-      $v+px $v+px at
-      (random($w - $v * 2) + $v)+px
-      (random($w - $v * 2) + $v)+px, 
-      rgba(255,255,255,$a) 50%,
-      rgba(0,0,0,0)
-  ) !global;
+.gradient {
+    height: 300px; // Тут высота блока
+    width: 100%; // Тут длина
+    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+    animation: gradient 10s infinite linear; // 10s - скорость анимации
+    background-size: 400%; // Можно менять и подбирать интенсивность
 }
-
-// The CSS
-html {
-  height: 100%;
-  background: linear-gradient(#123 30%, #667);
-  overflow: hidden;
 }
-.snow, .snow:before, .snow:after {
-  position: absolute;
-  top: -$w + px;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background-image: $grad;
-  background-size: $w + px $w + px;
-  animation: snow $s linear infinite;
-  content: "";
-}
-.snow:after {
-  margin-left: -$w/3 + px;
-  opacity: .4;
-  animation-duration: $s*2;
-  animation-direction: reverse;
-  filter: blur(3px);
-}
-.snow:before {
-  animation-duration: $s*3;
-  animation-direction: reverse;
-  margin-left: -$w/2 + px;
-  opacity: .65;
-  filter: blur(1.5px);
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
 }
 @keyframes snow {
   to {
