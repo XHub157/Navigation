@@ -1,9 +1,9 @@
-html 
+html w
 .example-3 {
   width: 100%;
   min-height: 400px;
   background: linear-gradient(-45deg, #D4145A, #FBB03B, #FF5E3A);
-  background-size: 400% 400%;
+  background-size: cover;
   -webkit-animation: gradient-example-3 8s ease infinite;
           animation: gradient-example-3 8s ease infinite;
 }
