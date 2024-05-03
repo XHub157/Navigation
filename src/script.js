@@ -82,5 +82,3 @@ window.addEventListener('resize', onResize);
 
 initParticles();
 animate();
-
-//section
