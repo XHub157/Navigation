@@ -58,9 +58,14 @@
     <button class="button is-ghost" onclick="window.location.href='catalog.html'">Назад</button>
   </footer>
 </article>
-<script>
-document.addEventListener('click', function (e) {
-     if (e.target.classList.contains('maskedLink')) document.location.href = e.target.dataset.href;
-});
-</script>
 </div>
+<script> $(function() {
+   if ($.browser.msie && $.browser.version.substr(0,1)<7)
+   {
+     $('.tooltip').mouseover(function(){
+           $(this).children('span').show();
+         }).mouseout(function(){
+           $(this).children('span').hide();
+         })
+   }
+ });</script>
